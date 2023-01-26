@@ -1,0 +1,24 @@
+
+1) Put simply, the “Inversion of Control” (IoC) describes the difference between a library and a framework. In some ways, you can think of a framework as a collection of libraries, but it’s entirely different. By using a library, you control the flow of the program. The library can be invoked whenever and wherever you like. Contrary to this, when you use a framework, the flow is controlled by the framework. The framework instructs you where to put your code, but it will call your code as required. Simply put, our code calls the library’s code, but in a framework, it’s the framework’s code that calls our code as shown in the below diagram.
+Developers can invoke libraries to perform specific tasks by using components, classes, and methods. A framework, however, already provides code to perform common tasks and uses code provided by a developer for custom functionality.
+React is a library because  in order to build complete React applications, we need to choose these packages and tools on our own.
+
+2)
+a)React has a steep learning curve.
+it is efficient, declarative, and flexible.
+b) React.js offers fast rendering.
+React’s Virtual DOM is basically the prime cause of faster rendering and better performance of React apps. 
+c)React helps to build easily testable rich user interfaces.
+d) The React library helps developers boost their productivity.
+e) ReactJS can be SEO-friendly.
+f) React developers get strong community support.
+
+3)JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods. JSX converts HTML tags into react elements.
+
+4)Components are piece of codes that can be used anywhere in the project
+Components are like functions that return HTML elements.
+ They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+ 
+ The most obvious one difference is the syntax. A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element.
+
+A class component requires you to extend from React.Component and create a render function which returns a React element.
